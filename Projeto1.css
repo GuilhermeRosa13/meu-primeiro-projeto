@@ -1,0 +1,103 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+font-family: 'Itim', cursive;
+
+}
+body {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+width: 100vw;
+background-image: url("https://source.unsplash.com/2000x1600/?landscape");
+}
+ 
+input {
+border: none;    
+outline: none;
+padding: 10px; 
+border-radius: 20px;
+font-size: 20px;
+width: calc( 100% - 100px);
+background-color: #7c7c7c2b;
+width: 400px;
+color: #ffffff;
+}
+
+.lupa {
+height: 45px;
+    background-color: #727272;
+border: none;
+border-radius: 30px;
+opacity: 0.2;
+cursor: pointer;
+float: right;
+}
+
+
+.caixa-maior {   
+    background-color: #0c0a0a;
+    width: 500px;
+    font-size: 25px;
+    opacity: 0.9;
+    border-radius: 25px;
+    height: 350px;
+padding: 20px;
+}
+
+.caixa-media {
+margin-top: 10px;
+margin: 10px;
+}
+
+.caixa-menor{
+display: flex;
+align-items: center;
+
+}
+he {
+color: #727272;
+font-size: 28px;
+}
+
+button {
+border: none;
+outline: none;
+padding: 10px;
+border-radius: 50px;
+background-color:#ffffff
+
+
+}   
+h2{
+    color:white
+}
+
+
+p{
+    color: white;
+    
+}
+
+button :hover {
+    background-color: #ffffff
+
+}
+
+.temp {
+   margin:10px;
+   margin-top: 20px
+}
+
+.descricao{
+    margin:20px;
+    margin-top:20px;
+text-transform: capitalize;
+}
+.umidade{
+    margin:20px;
+    margin-top:20px;
+}
